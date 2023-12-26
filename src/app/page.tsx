@@ -1,5 +1,5 @@
 'use client';
-import React, { useState, useCallback, MouseEvent } from 'react';
+import React, { useState } from 'react';
 import AnimatedBackground from './components/AnimatedBackground';
 import Logo from './components/Logo';
 

@@ -15,6 +15,7 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
         <link rel="stylesheet" href="https://use.typekit.net/cek5nuq.css" />
+        <link rel="icon" href="/favicon.png" sizes="any" />
 
 
 {children}  
