@@ -1,0 +1,12 @@
+.AnimatedBackground {
+  animation: animateBg 10s linear infinite;
+  background-image: linear-gradient(0deg, #f9c5d1, #9795ef, #f6a5c0, #f9c5d1);
+  background-size: 100% 1100%;
+  height: 100vh;
+  width: 100vw;
+}
+@keyframes animateBg {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+

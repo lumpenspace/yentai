@@ -1,10 +1,9 @@
 import React from 'react';
-import './AnimatedBackground.css'; // Corrected CSS file name
+import styles from './AnimatedBackground.module.css';
 
 const AnimatedBackground = () => {
   return (
-    <div className="animated-background">
-      <div className="gradient-overlay"></div>
+    <div className={styles.AnimatedBackground}>
     </div>
   );
 };

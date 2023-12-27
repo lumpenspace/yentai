@@ -1,0 +1,32 @@
+
+@keyframes move-bg {
+  to {
+    background-position: -300px 0;
+  }
+}
+.Logo {
+
+  --size: 250px;
+  --speed: 1s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+  /*center in the middle of the screen*/
+  top: 50%;
+  left: 50%;
+
+  font-family: 'ice-cream-slant', sans-serif;
+  font-size: clamp(10rem, 25vmin, 8rem);
+  color: #f9c5d1;
+  text-align: center;
+  margin: 0;
+  display: inline-block;
+  position: fixed;
+  background: linear-gradient(
+                90deg,
+                #9795ef, #f6a5c0
+              ) 0 0 / 1000px 500px;
+  transform: translate(-50%, -50%);
+  animation: move-bg 0.8s alternate infinite linear;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

@@ -1,11 +1,11 @@
 
 
 import React from 'react';
-import './Logo.css';
+import styles from './Logo.module.css';
 
 const Logo = () => {
   return (
-    <h1 className="logo">YENT.AI</h1>
+    <h1 className={styles.Logo}>YENT.AI</h1>
   );
 };
 
